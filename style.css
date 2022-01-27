@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  outline: 2px solid black;
+  background: white;
+}
+.food {
+  background: blue;
+}
+.body {
+  background: black;
+}
+.tail {
+  background: purple;
+}
+.head {
+  background: tomato;
+}
